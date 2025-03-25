@@ -64,12 +64,12 @@ repos:
         name: Validate LLM Provider Configuration
         entry: python -c "import config; print('LLM providers validated successfully!')"
         language: system
-        files: 'config\.py'
+        files: 'config/config\.py'
         pass_filenames: false
 
     -   id: check-code-executor
         name: Check Code Executor Security
         entry: python -c "import code_executor; print('Code executor security checks passed!')"
         language: system
-        files: 'code_executor\.py'
+        files: 'modules/code_executor\.py'
         pass_filenames: false
