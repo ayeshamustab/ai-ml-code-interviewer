@@ -35,23 +35,29 @@ This app is built using Streamlit and provides interactive coding and multiple-c
 ```
 ai-ml-code-interviewer/
 ├── app.py                 # Main application entry point
-├── coding_module.py       # Coding practice functionality
-├── help_module.py         # Help and documentation functionality
-├── history_manager.py     # Session history management
-├── quiz_module.py         # Quiz functionality
-├── llm_service.py         # LLM API interaction service
-├── code_executor.py       # Safe code execution environment
-├── settings_module.py     # Settings management
-├── utils.py               # Utility functions
-├── config.py              # Configuration settings
+├── modules/               # Contains all the module files
+│   ├── coding_module.py       # Coding practice functionality
+│   ├── help_module.py         # Help and documentation functionality
+│   ├── history_manager.py     # Session history management
+│   ├── quiz_module.py         # Quiz functionality
+│   ├── llm_service.py         # LLM API interaction service
+│   ├── code_executor.py       # Safe code execution environment
+│   ├── settings_module.py     # Settings management
+│   └── utils.py               # Utility functions
+├── config/                # Configuration settings
+│   ├── .app_settings.json  # Application settings
+│   ├── .env.example         # Example environment variables
+│   ├── .secrets.baseline    # Secrets detection baseline
+│   ├── config.py            # Configuration settings
+│   ├── dev-requirements.txt  # Development dependencies
+│   └── requirements.txt      # Project dependencies
 ├── requirements.txt       # Project dependencies
 ├── dev-requirements.txt   # Development dependencies
-├── .env.example           # Example environment variables
+├── .github/               # GitHub workflow files
+├── .pre-commit-config.yaml# Pre-commit configuration
 ├── styles/                # CSS styles
 │   └── app.css           # Application styles
 ├── user_history/          # Session history files
-├── .github/               # GitHub workflow files
-├── .pre-commit-config.yaml# Pre-commit configuration
 └── Readme.md              # Project documentation
 ```
 
