@@ -3,12 +3,12 @@ Coding practice module for the AI-ML Code Interviewer application.
 """
 import logging
 
-import config
+from config import config
 import streamlit as st
-import utils
-from code_executor import CodeExecutor
-from history_manager import HistoryManager
-from llm_service import LLMService
+import modules.utils as utils
+from modules.code_executor import CodeExecutor
+from modules.history_manager import HistoryManager
+from modules.llm_service import LLMService
 from streamlit_ace import st_ace
 
 # Set up logging

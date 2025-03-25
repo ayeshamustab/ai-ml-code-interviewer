@@ -40,3 +40,6 @@ user_history/
 
 # Virtual environments
 .venv/
+
+# logs
+logs/

@@ -34,7 +34,7 @@ except ImportError:
 # Grok uses the OpenAI client with a different base URL
 GROK_AVAILABLE = OPENAI_AVAILABLE
 
-import config
+from config import config
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)

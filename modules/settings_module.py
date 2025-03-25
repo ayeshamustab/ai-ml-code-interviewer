@@ -7,9 +7,9 @@ import logging
 import os
 from typing import Any, Dict, Optional
 
-import config
+from config import config
 import streamlit as st
-
+from modules.llm_service import LLMService
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -120,7 +120,7 @@ class SettingsModule:
             provider_config = config.LLM_PROVIDERS[selected_provider]
 
             if selected_provider == "lmstudio":
-                from llm_service import LLMService
+                
 
                 llm_service = LLMService()
                 try:

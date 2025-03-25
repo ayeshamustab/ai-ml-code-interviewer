@@ -24,14 +24,14 @@ Features:
 import logging
 import os
 
-import config
+from config import config
 import streamlit as st
-from coding_module import CodingModule
+from modules.coding_module import CodingModule
 from dotenv import load_dotenv
-from help_module import HelpModule
-from llm_service import LLMService
-from quiz_module import QuizModule
-from settings_module import SettingsModule
+from modules.help_module import HelpModule
+from modules.llm_service import LLMService
+from modules.quiz_module import QuizModule
+from modules.settings_module import SettingsModule
 
 # Ensure logs directory exists
 os.makedirs("logs", exist_ok=True)

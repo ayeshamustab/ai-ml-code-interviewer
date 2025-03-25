@@ -3,11 +3,11 @@ Quiz module for the AI-ML Code Interviewer application.
 """
 import logging
 
-import config
+from config import config
 import streamlit as st
-import utils
-from history_manager import HistoryManager
-from llm_service import LLMService
+import modules.utils as utils
+from modules.history_manager import HistoryManager
+from modules.llm_service import LLMService
 
 # No unused imports
 
