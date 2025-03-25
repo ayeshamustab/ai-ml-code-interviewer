@@ -1,7 +1,7 @@
 # Machine Learning & Deep Learning Interview Preparation App
 
 <div align="center">
-  <img src="ai-ml-code-interviewer.png" alt="AI-ML Code Interviewer" width="800"/>
+  <img src="images/ai-ml-code-interviewer.png" alt="AI-ML Code Interviewer" width="800"/>
 </div>
 
 This app is built using Streamlit and provides interactive coding and multiple-choice question practice for machine learning and deep learning topics. It is designed to help interview candidates practice key concepts, algorithms, and techniques by generating coding challenges and questions on-demand.
@@ -149,7 +149,7 @@ To set up and run this app locally, follow these steps:
 8. Use "Start New Quiz" to generate a new set of questions
 
 <div align="center">
-  <img src="ai-ml-code-interviewer-mcqs.png" alt="AI-ML Code Interviewer MCQs" width="800"/>
+  <img src="images/ai-ml-code-interviewer-mcqs.png" alt="AI-ML Code Interviewer MCQs" width="800"/>
 </div>
 
 ### Settings
@@ -161,7 +161,7 @@ The "Settings" tab allows you to:
 - Learn more about the application
 
 <div align="center">
-  <img src="ai-ml-code-interviewer-settings.png" alt="AI-ML Code Interviewer Settings" width="800"/>
+  <img src="images/ai-ml-code-interviewer-settings.png" alt="AI-ML Code Interviewer Settings" width="800"/>
 </div>
 
 ### Help
@@ -169,7 +169,7 @@ The "Settings" tab allows you to:
 The "Help" tab provides detailed documentation and guides for using the application.
 
 <div align="center">
-  <img src="ai-ml-code-interviewer-help.png" alt="AI-ML Code Interviewer Help" width="800"/>
+  <img src="images/ai-ml-code-interviewer-help.png" alt="AI-ML Code Interviewer Help" width="800"/>
 </div>
 
 ## Security Features
