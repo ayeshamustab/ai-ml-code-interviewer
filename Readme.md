@@ -51,7 +51,6 @@ ai-ml-code-interviewer/
 │   ├── config.py            # Configuration settings
 │   ├── dev-requirements.txt  # Development dependencies
 │   └── requirements.txt      # Project dependencies
-├── requirements.txt       # Project dependencies
 ├── dev-requirements.txt   # Development dependencies
 ├── .github/               # GitHub workflow files
 ├── .pre-commit-config.yaml# Pre-commit configuration
